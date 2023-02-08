@@ -1,0 +1,95 @@
+
+.container {
+    margin-top: 80px;
+    width: 90%;
+}
+
+.row {
+    /* row-gap: 20px; */
+    padding: 5px 0 ;
+}
+
+.row>* {
+    margin-bottom: 10px;
+}
+
+nav {
+    overflow-y: visible;
+    z-index: 100;
+    top: 36px;
+    width: 100%;
+}
+
+.card {
+    display: block;
+    margin: auto;
+    border: none;
+    width: 90%;
+}
+
+.card img {
+    display: block;
+    margin: auto;
+}
+
+.card-img-top {
+    border-radius: 2% !important;
+}
+
+.card-text {
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    border: 1px dashed red;
+    margin: 20px 0 0 0;
+}
+
+.ScientificName {
+    font-size: 1.1em;
+    color: grey;
+}
+
+.subTitle {
+    width: 150px;
+    color: #f74a75;
+    background-image: linear-gradient(to right, #8ff09f, #ffffff);
+}
+
+.Title {
+    width: 100%;
+    background-color: #501da3;
+    position: fixed;
+    top: 0px;
+    padding: 0 0 0 20px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 30;
+}
+
+::selection {
+    background: #41ad4f;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .Papilio {
+        height: 600px;
+        overflow: scroll;
+    }
+
+    .Nymphalidae {
+        height: 600px;
+        overflow: scroll;
+    }
+
+    .Lycaenidae {
+        height: 600px;
+        overflow: scroll;
+    }
+}
